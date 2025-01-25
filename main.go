@@ -10,6 +10,8 @@ const frenchHelloPrefix = "Bonjour, "
 const french = "French"
 const spanish = "Spanish"
 
+// Hello returns a greeting message in the specified language. If the name is empty,
+// it defaults to "World".
 func Hello(name string, language string) string {
 	if name == "" {
 		name = "World"
